@@ -34,3 +34,21 @@ Implement mobile first design principles
 
 
 Remember, this is done with the aim of building out a portfolio. It doesn’t need to be perfect. 
+
+
+JavaScript Project Week
+The Brief
+To add functionality to the website you created in the first project, using JavaScript.
+Requirements
+Include an element in a consistent place across all pages that alters the styling in some way when clicked (eg. Dark mode)
+Add event listeners to modify your page in certain conditions
+If you have a submission form on your website, add a submit event listener to it
+Stretch goals
+Use timing events (setInterval(), setTimeout() etc.) to affect your page
+Use an async function to alter the contents of one of your pages
+Make use of an API which seems appropriate for your site. (This link has a list of popular APIs: Web APIs | MDN (mozilla.org))
+Display data on a page using the fetch API
+If you’re feeling confident, add this new functionality via a new feature branch on git, and merge it back into your main branch
+
+
+Don’t add things for the sake of it. Think about what is appropriate for your website
