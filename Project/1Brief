@@ -1,0 +1,36 @@
+HTML Project 
+
+The Brief 
+
+To create a webpage with at least 4 pages around a hobby, interest or business (does not have to be real), and style it using a single CSS file. 
+
+If you don’t have an idea for this project, build the website to act as your portfolio. 
+
+Requirements 
+
+Create a homepage, about the author page, and at least 2 pages of content (Blog,  gallery, portfolio etc.) 
+
+Ensure all pages can be navigated to, and navigated away from, using a location that is consistent across all pages 
+
+Images must be present on at least two pages 
+
+Use the <div> tag to divide content in a consistent manner 
+
+Style all pages using a single CSS file, to ensure consistency throughout 
+
+Ensure none of your styling is done in the HTML document 
+
+Stretch goals 
+
+Add a logo to all your pages, which redirects to your homepage 
+
+Add a contact page, where users can submit their contact details with a form (It does not need to successfully submit yet) 
+
+If you don’t already have a gallery page, add one, and style it using Grid Layout 
+
+Have the elements on your navbar change styling when hovered 
+
+Implement mobile first design principles 
+
+
+Remember, this is done with the aim of building out a portfolio. It doesn’t need to be perfect. 

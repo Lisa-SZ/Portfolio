@@ -1,0 +1,96 @@
+/*comment syntax for CSS. Shortcut is command slash*/
+
+/*
+Colour Scheme:
+#290907
+#57473a
+#6e8658
+#73a1b2
+#d0d5ce
+#efe9e1
+*/
+
+*{
+    background-color: #d0d5ce; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    color:#290907;
+}
+h1{
+    color: #6e8658;
+    font-size: 48px;
+    text-align: center;
+
+}
+/* Flexbox */
+.textflex{
+    display:flex;
+    flex-direction:column;
+    background-color:#6e8658;
+}
+.itemflex{
+    background-color:#6e8658;
+    color:#290907;
+}
+
+.list{
+    color:#6e8658;
+    background-color: #73a1b2;
+}
+#selection{
+    background-color: #73a1b2;
+    color: #290907;
+}
+/* Navigation bar */
+.navigation{
+    text-align: center;
+    background-color:#73a1b2;
+    font-size: 20px;
+    padding: 10px;
+    margin: 3px 0px 3px 0px;
+}
+.navitems{
+    background-color: #73a1b2;
+    color:#290907;
+    border: 3px solid #73a1b2;
+    border-radius: 5px;
+    margin-left:20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.navitems:hover{
+    background-color: #6e8658;
+    border: 3px solid #6e8658;
+}
+
+.checklist{
+    border: 3px solid #73a1b2;
+    border-radius: 5px;
+    color:#290907;
+}
+.form{
+    border: 3px solid #6e8658;
+    border-radius: 5px;
+    color:#290907;
+}
+table,th,td {
+    border: 1px solid #73a1b2;
+}
+.secretbutton{
+    color: #290907;
+    font-size:14px;
+    background-color: #73a1b2;
+    height:40px;
+    width:80px;
+}
+img{
+    height: auto;
+    max-width: 50%;
+}
+/* applies if device dimentions are less than 600 */
+@media(max-width:600px) {
+    body{
+        background-color: #73a1b2;
+    }
+}
