@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby Season Blog</title>
+    <link rel="stylesheet" href="Style.css">
+    <script defer src="Project.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/Logo.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <a href="Home.html">
+        <img id="title" src="Images/Title.png" alt="Website Tiltle Logo">
+    </a>
+    <nav class="navigation">
+        <a class="navItems" id="firstNav" href="Home.html">Home</a>
+        <a class="navItems" href="Blog.html">Blog</a>
+        <a class="navItems" href="Gallery.html">Gallery</a>
+        <a class="navItems" href="Shop.html">Shop</a>
+        <a class="navItems" href="About.html">About</a>
+        <a class="navItems" href="Contact.html">Contact</a>
+        <img id="darkLogo" src="Images/DarkLight.png" onclick="toggleDark()">
+    </nav>
+    <h3 id="blogTitle">A begginer's guide to cross stitch</h3>
+    <p class="blogText">Cross Stitching is a relaxing, methodical hobby that has become my new obsession.
+        It is a great new way to be creative and the physicallity is soothing and fun.
+        If you're thinking about taking up cross stitching as a new hobby, read on.
+    </p>
+
+    <br>
+
+    <div class="stitchImages">
+        <div class="progress" id="stitch1">
+            <img src="Images/More/supplies.jpg">
+            <p>Start</p>
+        </div>
+        <div class="progress" id="stitch2">
+            <img src="Images/More/stitching.jpg">
+            <p>Middle</p>
+        </div>
+        <div class="progress" id="stitch3">
+            <img src="Images/More/lighthouse.jpg">
+            <p>End</p>
+        </div>
+    </div>
+
+    <br>
+
+    <p class="blogText">Cross stitch projects are often sold as kits, but you can also purchase fabric, 
+        thread and basic supplies to come up with your own project.
+    </p>
+    <br>
+    <div class="stitchList">
+    <p class="blogText" id="blogTextTitle">Tips:</p>
+        <ul>
+            <li>Aim for a nice easy tension on your stitches. 
+                Don’t pull them so tight that they warp the fabric or leave them so loose that they gap. 
+                The stitches should lie flat against the fabric without pulling against it.</li>
+            <li>Buy all your supplies for a project at the start. 
+                Thread comes in dye lots that may vary slightly between batches.</li>
+            <li>As you stitch, the thread will tend to get twisted. Every once in a while, 
+                let your needle and thread hang freely to let it unwind.</li>
+            <li>Have fun! Cross stitch is a relaxing and rewarding craft. 
+                Don’t stress too much about the details and enjoy the process!</li>
+        </ul>
+    </div>
+    <br>
+
+    <div class="range">
+        <p class="blogText">Cross stitching can vary from quick little projects to huge tapestries. 
+            So choose your projects based on the amount of time you have and your level of proficiency.
+        </p>
+        <div class="stitchRange">
+            <div class="rangeContainer">
+                <img class="rangeImage" src="Images/Simple.jpg">
+                <div class="overlay">
+                    <div class="rangeText">30 mins to 1 hr</div>
+                </div>
+            </div>
+
+            <div class="rangeContainer">
+                <img class="rangeImage" src="Images/Detailed.jpg">
+                <div class="overlay">
+                    <div class="rangeText2">4 hr to 6 hr</div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <p class="blogText" id="hoverText">Hover over to see how long each project might take.</p>
+    </div>
+
+    <br>
+
+    <p id="favShop">Shop our favourite kits</p>
+    <div class="shopTrio">
+        <div class="shopCard">
+            <a href="Shop.html"><img src="Images/green.jpg"></a>
+            <a href="Shop.html"><p>Sage Green</p></a>
+        </div>
+        <div class="shopCard">
+            <a href="Shop.html"><img src="Images/pink.jpg"></a>
+            <a href="Shop.html"><p>Cherry Blossom Pink</p></a>
+            
+        </div>
+        <div class="shopCard">
+            <a href="Shop.html"><img src="Images/blue.jpg"></a>
+            <a href="Shop.html"><p>Calm Blue</p></a>
+        </div>
+    </div>
+    <a href="Shop.html">
+        <button type="button" id="shopMore">Shop More</button>
+    </a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer">
+        <div class="footerList">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footerList">
+            <h4>Follow Us</h4>
+            <div class="socials">
+                <a href="https://en-gb.facebook.com/" ><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" ><i class="fab fa-instagram"></i></a>
+                <a href="https://uk.linkedin.com/" ><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+            <p id="ending">Hobby Season © 2025 || Designed By: Siqi Lisa Zhao</p>
+        </footer>
+</body>
+</html>
