@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby Season</title>
+    <link rel="stylesheet" href="Style.css">
+    <script defer src="Project.js"></script>
+    <link rel="icon" type="image/x-icon" href="Images/Logo.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <a href="Home.html">
+        <img id="title" src="Images/Title.png" alt="Website Tiltle Logo">
+    </a>
+
+    <nav class="navigation">
+        <a class="navItems" id="firstNav" href="Home.html">Home</a>
+        <a class="navItems" href="Blog.html">Blog</a>
+        <a class="navItems" href="Gallery.html">Gallery</a>
+        <a class="navItems" href="Shop.html">Shop</a>
+        <a class="navItems" href="About.html">About</a>
+        <a class="navItems" href="Contact.html">Contact</a>
+        <img id="darkLogo" src="Images/DarkLight.png" onclick="toggleDark()">
+    </nav>
+
+    <div class="welcome">
+        <div class="welcomeText">
+            <h3 id="hello">Hello!</h3>
+            <p>Welcome to Hobby Season, where you can find which new hobby or interest you would like to take up this season.</p>
+            <a href="Blog.html">
+                <button type="button" id="readOn">Read Blog</button>
+            </a>
+        </div>
+        <img id="welcomeLogo" src="Images/asthetic.jpg">
+    </div>
+    <br>
+
+    <p id="favShop">Shop our favourite kits</p>
+    <div class="shopTrio">
+        <div class="shopCard">
+            <a href="Shop.html"><img src="Images/green.jpg"></a>
+            <a href="Shop.html"><p>Sage Green</p></a>
+        </div>
+        <div class="shopCard">
+            <a href="Shop.html"><img src="Images/pink.jpg"></a>
+            <a href="Shop.html"><p>Cherry Blossom Pink</p></a>
+            
+        </div>
+        <div class="shopCard">
+            <a href="Shop.html"><img src="Images/blue.jpg"></a>
+            <a href="Shop.html"><p>Calm Blue</p></a>
+        </div>
+    </div>
+    <a href="Shop.html">
+        <button type="button" id="shopMore">Shop More</button>
+    </a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p id="homeTitle">How to pick a hobby</p>
+    <div class="choice">
+        <div class="warm">
+            <p> In the warmer months such as Spring and Summer. Take advantage of the good weather and take your hobbies outdoors.</p>
+            <div class="warmList">
+                <p>Outdoor Activities:</p>
+                <ul>
+                    <li>Photography</li>
+                    <li>Walks</li>
+                    <li>Gardening</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="cold">
+            <p> In Autumn and Winter, you may find indoor activities more enjoyable instead of freezing outside.</p>
+            <div class="coldList">
+                <p>Indoor Activities:</p>
+                <ul>
+                    <li>Crafts</li>
+                    <li>Gaming</li>
+                    <li>Reading</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="summary">
+        <img src="Images/LogoClear.png"/>
+        <p>You can do any hobby whenever you want but spliting them up by season is a fun way to separate your interests!</p>
+    </div>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="time">
+        <b>What time is it?</b>
+        <h2 id="clock"></h2>
+        <p>It's time to pick up a new hobby!</p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer">
+        <div class="footerList">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footerList">
+            <h4>Follow Us</h4>
+            <div class="socials">
+                <a href="https://en-gb.facebook.com/" ><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" ><i class="fab fa-instagram"></i></a>
+                <a href="https://uk.linkedin.com/" ><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+            <p id="ending">Hobby Season © 2025 || Designed By: Siqi Lisa Zhao</p>
+        </footer>
+
+</body>
+</html>
